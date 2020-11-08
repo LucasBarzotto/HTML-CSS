@@ -1,6 +1,9 @@
+@import url('/content.css');
+
 :root {
  --bgBlue: #0d0d1a;
  --mainBlue: #2d08b3;
+ --niceGreen: rgb(31, 184, 0);
 }
 
 * {

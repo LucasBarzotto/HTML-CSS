@@ -9,7 +9,6 @@
  background: #ffffff;
  border: none;
  top: 13%;
- left: 18%;
  width: 25%;
  min-width: 300px;
  border-radius: 5px;
@@ -28,14 +27,14 @@ h1, h2 {
 
 h1 {
  font-weight: 700;
- font-size: 1.8em;
+ font-size: 200%;
  flex-basis: 70%;
 }
 
 h2 {
  opacity: 75%;
  font-weight: 700;
- font-size: 0.8em;
+ font-size: 90%;
  margin-bottom: 2%;
  letter-spacing: 0.05em;
 }
@@ -127,5 +126,45 @@ input, select {
 }
 
 .search input:hover {
- background: rgb(255, 108, 108);
+ background: rgb(255, 109, 109);
+}
+
+@media screen and (min-width: 769px) {
+ .divform {
+  opacity: 0;
+  left: -100vw;
+  animation: appear 0.7s ease-out 0.15s forwards;
+ }
+}
+
+@media screen and (max-width: 768px) {
+ .divform {
+  opacity: 0;
+  transform: translateX(-200vw);
+  animation: appear2 0.7s ease-out 0.15s forwards;
+ }
+}
+
+@keyframes appear {
+ 0% {
+   transform: translateX(0vw);
+   opacity: 0;
+ }
+
+ 100% {
+   transform: translateX(118vw);
+   opacity: 1;
+ }
+}
+
+@keyframes appear2 {
+ 0% {
+   transform: translateX(-200vw);
+   opacity: 0;
+ }
+
+ 100% {
+   transform: translateX(-35vw);
+   opacity: 1;
+ }
 }

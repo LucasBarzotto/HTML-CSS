@@ -1,0 +1,38 @@
+main {
+ background: #FFCDD2;
+ width: 100%;
+}
+
+.mainCont {
+ width: 1170px;
+ margin: 0 auto;
+ border: solid 1px red;
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ grid-auto-rows: auto;
+}
+
+.mainText {
+ grid-column: 1 / 3;
+ border: solid 1px blue;
+}
+
+.mainImg {
+ grid-column: 3 / 6;
+ border: solid 1px green;
+ position: relative;
+ height: 700px;
+}
+
+.mainImg .lp {
+ width: 555px;
+ margin: 100px auto 160px 30px;
+ position: absolute;
+}
+
+.mainImg .arm {
+ position: absolute;
+ width: 260px;
+ left: 340px;
+ top: 120px;
+}

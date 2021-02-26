@@ -3,6 +3,10 @@ nav {
  background: black;
 }
 
+nav > * {
+ font-weight: 700;
+}
+
 .navCont {
  margin: 0 auto;
  display: flex;

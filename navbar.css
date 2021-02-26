@@ -14,6 +14,7 @@ nav .logo {
 
 nav .logo img{
  height: 100%;
+ cursor: pointer;
 }
 
 nav .links {
@@ -62,4 +63,8 @@ nav .links .login {
 
 nav .links .login a{
  color: #d4d4d4;
+}
+
+nav .links .login a:hover, nav .links .others a:hover{
+ color: #F0379B;
 }

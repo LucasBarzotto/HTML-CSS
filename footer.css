@@ -22,7 +22,7 @@ footer a:hover {
  display: flex;
  justify-content: center;
  margin-top: 20px;
- flex-basis: 55%;
+ flex-basis: 50%;
 }
 
 .footerCont .general ul {
@@ -38,7 +38,7 @@ footer a:hover {
 }
 
 .footerCont .usa {
- flex-basis: 20%;
+ flex-basis: 50%;
  text-align: right;
 }
 

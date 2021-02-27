@@ -16,6 +16,10 @@ nav > * {
  width: 1170px;
 }
 
+.navCont #menu {
+ display: none;
+}
+
 nav .logo {
  flex-basis: 55%;
  height: 50%;

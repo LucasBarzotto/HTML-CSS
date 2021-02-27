@@ -1,0 +1,44 @@
+@media screen and (max-width: 1200px) {
+ .navCont {
+  width: 940px;
+ }
+
+ nav .logo {
+  flex-basis: 45%;
+ }
+
+ nav .links {
+  flex-basis: 55%;
+ }
+
+ .mainCont {
+  width: 940px;
+ }
+
+ .mainText {
+  margin: auto 25px auto 65px;
+ }
+
+ .mainImg {
+  height: 615px;
+ }
+ 
+ .mainImg .lp {
+  width: 455px;
+  margin: 100px auto 160px 30px;
+ }
+ 
+ .mainImg .arm {
+  width: 220px;
+  left: 275px;
+  top: 120px;
+ }
+
+ .sectionCont {
+  width: 940px;
+ }
+
+ .footerCont {
+  width: 940px;
+ }
+}

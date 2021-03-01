@@ -1,0 +1,55 @@
+footer {
+ background: black;
+ padding: 0 0 50px 0;
+}
+
+footer a , h3 {
+ color: #8F8F8F;
+}
+
+footer a:hover {
+ color: #F0379B;
+}
+
+.footerCont {
+ width: 1170px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+}
+
+.footerCont .general {
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+ flex-basis: 50%;
+}
+
+.footerCont .general ul {
+ padding: 0;
+ flex-basis: 100%;
+ display: flex;
+ justify-content: space-around;
+}
+
+.footerCont .general ul li a {
+ font-size: 0.6em;
+ font-weight: 600;
+}
+
+.footerCont .usa {
+ flex-basis: 50%;
+ text-align: right;
+}
+
+.footerCont .usa a{
+ font-size: 0.75em;
+ font-weight: 600;
+ padding: 10px;
+}
+
+.footerCont .usa h3{
+ font-size: 0.75em;
+ font-weight: 600;
+ padding: 10px;
+}

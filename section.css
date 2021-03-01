@@ -1,0 +1,87 @@
+section {
+ background: black;
+ padding: 80px 0 60px 0;
+}
+
+.sectionCont {
+ width: 1170px;
+ margin: 0 auto;
+ display: grid;
+ grid-template-columns: repeat(6, 1fr);
+}
+
+.sectionCont .logoSection img{
+ width: 145px;
+}
+
+.sectionCont .logoSection {
+ cursor: pointer;
+}
+
+.sectionCont > * > h2 {
+ color: #8a8a8a;
+ font-size: 0.8em;
+ padding-top: 10px;
+ padding-left: 10px;
+ padding-bottom: 12px;
+}
+
+.sectionCont > * > ul {
+ padding: 0;
+}
+
+.sectionCont > * > ul li {
+ padding: 13px 10px;
+}
+
+.sectionCont > * > ul li a {
+ color: white;
+ font-size: 0.9em;
+}
+
+.sectionCont > * > ul li a:hover {
+ color: #F0379B;
+}
+
+.sectionCont .social {
+ grid-column: 5 / 7;
+ color: white;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.sectionCont .social ul {
+ margin: 20px 5px;
+}
+
+.sectionCont .social ul li {
+ width: 69px;
+ height: 69px;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ float: left;
+}
+
+.sectionCont .social ul li div {
+ width: 54px;
+ height: 54px;
+ border-radius: 100%;
+ background-color: #222222;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.sectionCont .social ul li div a #ig {
+ transform: scale(1.9);
+}
+
+.sectionCont .social ul li div a #tw {
+ transform: scale(1.4);
+}
+
+.sectionCont .social ul li div a #fb {
+ transform: scale(1.5);
+}

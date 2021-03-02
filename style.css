@@ -15,16 +15,25 @@
  text-decoration: none;
 }
 
+body {
+ width: 100%;
+ height: 100%;
+ position: relative;
+ background-color: var(--bgBlue);
+}
+
 .nav-container {
  width: 100%;
+ height: 10vh;
  background-color: #0d0d1a;
+ min-height: 45px;
 }
 
 .navbar {
  display: grid;
  grid-template-columns: 0.2fr auto 1fr;
  align-items: center;
- height: 80px;
+ height: 100%;
  width: 90%;
  max-width: 1720px;
  margin: 0 auto;
@@ -50,15 +59,14 @@
 
 .nav-links-button {
  background-color: var(--mainBlue);
- padding: 6px 16px;
+ padding: 5px 15px;
  border-radius: 5px;
+ border: solid 1px transparent;
 }
 
 .nav-links-button:hover {
  background-color: transparent;
- color: white;
  padding: 5px 15px;
- border-radius: 5px;
  border: solid 1px var(--mainBlue);
  transition: all 0.3s ease-out;
 }

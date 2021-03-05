@@ -9,15 +9,16 @@
  <link rel="stylesheet" href="mobile.css">
  <link rel="stylesheet" href="queries.css">
  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
-
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
  <!-- SEO -->
  <!--<base href="" target="_blank">-->
- <meta name="description" content="Bring your design and make fast and responsive websites with us!">
+ <meta name="description" content="Your design into a website with just one click!">
  <meta name="robots" content="index, follow">
  <meta name="googlebot" content="index,follow">
  <meta name=”author” content=”PSD2CSS”>
- <meta name="abstract" content="Bring your design and make fast and responsive websites with us!">
- <meta name="summary" content="Bring your design and make fast and responsive websites with us!">
+ <meta name="abstract" content="Your design into a website with just one click!">
+ <meta name="summary" content="Your design into a website with just one click!">
  <!--<meta name="url" content="">-->
  <meta name="coverage" content="Worldwide">
  <meta name="rating" content="General">
@@ -27,7 +28,7 @@
 
  <!-- FACEBOOK / OPEN GRAPH -->
  <meta property=”og:title” content=”PSD2CSS”>
- <meta property=”og:description” content=”Bring your design and make fast and responsive websites with us!”>
+ <meta property=”og:description” content=”Your design into a website with just one click!”>
  <meta property=”og:url” content=””>
  <meta property=”og:site_name” content=”PSD2CSS”>
  <meta property=”og:type” content=”Website”>
@@ -35,14 +36,14 @@
   <!-- GOOGLE+ / SCHEMA -->
 
  <meta itemprop=”name” content=”PSD2CSS>
- <meta itemprop=”description” content=”Bring your design and make fast and responsive websites with us!”>
+ <meta itemprop=”description” content=”Your design into a website with just one click!”>
  <meta itemprop=”image” content=”img/logo.png”>
  <link href=”https://plus.google.com/+SuaPagina” rel=”Publisher”>
 
  <!-- TWITTER -->
 
  <meta name=”twitter:title” content=”PSD2CSS”>
- <meta name=”twitter:description” content=”Bring your design and make fast and responsive websites with us!”>
+ <meta name=”twitter:description” content=”Your design into a website with just one click!”>
  <meta name=”twitter:url” content=””>
  <meta name=”twitter:card” content=”summary”>
  <meta name=”twitter:image” content=”img/logo.png”>
@@ -50,7 +51,94 @@
 
 </head>
 <body>
-
+ <nav>
+  <h1>PSD2CSS</h1>
+  <div class="menu"><i class="fas fa-bars"></i></div>
+  <ul>
+   <li><a href="portfolio">Portfolio</a></li>
+   <li><a href="prices">Prices</a></li>
+   <li><a href="contactus">Contact us</a></li>
+  </ul>
+ </nav>
+ <main class="grid">
+  <h2>Your design into a website with just one click!</h2>
+  <p>Bring your PSD files and we'll make it an awesome, fast and responsive website in a few days, for a very accessible price.</p>
+  <a href="portfolio" class="button">Check out our portfolio</a>
+  <div class="logo">
+   <img class="circle" src="assets/circle.png" alt="Logo background">
+   <img class="ps" src="assets/ps.png" alt="PS">
+   <img class="css" src="assets/css.png" alt="CSS">
+  </div>
+ </main>
+ <section id="portfolio">
+  <h2>Our Portfolio</h2>
+  <ul class="grid">
+   <li>
+    <img src="assets/google.jpg" alt="Google Website">
+    <a href="#">Check it out live</a>
+   </li>
+   <li>
+    <img src="assets/facebook.jpg" alt="Facebook Website">
+    <a href="#">Check it out live</a>
+   </li>
+   <li>
+    <img src="assets/orkut.jpg" alt="Orkut Website">
+    <a href="#">Check it out live</a>
+   </li>
+  </ul>
+ </section>
+ <section id="prices" class="grid">
+  <h2>Prices</h2>
+  <ul class="grid">
+   <li>
+    <h3>Single website</h3>
+    <h3>R$200,00</h3>
+    <button class="button">Let's do it!</button>
+   </li>
+   <li>
+    <h3>Two websites or more</h3>
+    <h3>R$180,00/each</h3>
+    <button class="button">Let's do it!</button>
+   </li>
+   <li>
+    <h3>Five websites or more</h3>
+    <h3>R$160,00/each</h3>
+    <button class="button">Let's do it!</button>
+   </li>
+   <li>
+    <h3>Ten websites or more</h3>
+    <h3>R$150,00/each</h3>
+    <button class="button">Let's do it!</button>
+   </li>
+  </ul>
+ </section>
+ <section id="contactus">
+  <div class="contact">
+   <form action="">
+    <input type="text" placeholder="Your name">
+    <input type="email" placeholder="Your best email">
+    <label for="websites">How many websites do you want?</label>
+    <select name="websites" id="websites">
+      <option value="volvo">One</option>
+      <option value="saab">Two or more</option>
+      <option value="mercedes">Five or more</option>
+      <option value="audi">Ten or more</option>
+    </select>
+    <button class="button">Send</button>
+   </form>
+  </div>
+ </section>
+ <footer>
+  <h3>Copyright 2021.</h3>
+  <h3>PSD2CSS</h3>
+  <div class="social">
+   <ul>
+    <li><div><a href="#"><i class="fab fa-instagram" id="ig"></i></a></div></li>
+    <li><div><a href="#"><i class="fab fa-twitter" id="tw"></i></a></div></li>
+    <li><div><a href="#"><i class="fab fa-facebook-f" id="fb"></i></a></div></li>
+   </ul>
+  </div>
+ </footer>
 
  <script src="https://kit.fontawesome.com/b855f1048b.js" crossorigin="anonymous"></script>
 </body>

@@ -1,0 +1,39 @@
+* {
+ list-style-type: none;
+ text-decoration: none;
+}
+
+:root {
+ --primary: rgb(209, 199, 238);
+ --secondary: rgb(255, 54, 28);
+ --tertiary: green;
+}
+
+img {
+ max-width: 100px;
+}
+
+html, body {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+ background: var(--primary);
+ font-size: 16px;
+ font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+ font-weight: 700;
+}
+
+h2, h3 {
+ font-weight: 500;
+}
+
+p {
+ font-weight: 400;
+}
+
+.grid {
+ grid-template-columns: repeat(10, 1fr);
+}

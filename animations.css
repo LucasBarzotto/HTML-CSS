@@ -1,0 +1,15 @@
+.button:hover {
+ background: rgb(255, 176, 176);
+}
+
+#contactus .contact form button:hover {
+ background: rgb(116, 116, 116);
+}
+
+nav .menu:hover {
+ color: var(--tertiary);
+}
+
+footer .social ul li a i:hover {
+ color: var(--tertiary);
+}

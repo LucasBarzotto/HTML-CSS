@@ -4,22 +4,25 @@
 }
 
 :root {
- --primary: rgb(209, 199, 238);
- --secondary: rgb(255, 54, 28);
- --tertiary: green;
+ --primary: rgb(19, 19, 19);
+ --secondary: rgb(255, 255, 255);
+ --tertiary: rgb(236, 92, 92);
 }
 
 img {
- max-width: 100px;
+ width: 100px;
 }
 
 html, body {
  box-sizing: border-box;
  padding: 0;
  margin: 0;
- background: var(--primary);
+ width: 100%;
+ background: var(--secondary);
  font-size: 16px;
  font-family: 'Oswald', sans-serif;
+ overflow-x: hidden;
+ scroll-behavior: smooth;
 }
 
 h1 {
@@ -35,5 +38,32 @@ p {
 }
 
 .grid {
+ display: grid;
  grid-template-columns: repeat(10, 1fr);
+}
+
+a {
+ color: var(--secondary);
+}
+
+.button {
+ background: var(--tertiary);
+ border: none;
+ padding: 5px;
+ color: var(--secondary);
+ text-transform: uppercase;
+ box-shadow: 2px 2px 60px rgba(255, 255, 255, 0.4);
+ border-radius: 0.6em;
+}
+
+.button:focus {
+ outline: none;
+}
+
+button {
+ cursor: pointer;
+}
+
+.fas {
+ cursor: pointer;
 }

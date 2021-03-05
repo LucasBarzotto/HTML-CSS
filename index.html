@@ -8,6 +8,7 @@
  <link rel="stylesheet" href="general.css">
  <link rel="stylesheet" href="mobile.css">
  <link rel="stylesheet" href="queries.css">
+ <link rel="stylesheet" href="animations.css">
  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
  <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
@@ -52,90 +53,105 @@
 </head>
 <body>
  <nav>
-  <h1>PSD2CSS</h1>
+  <a href="#"><h1><span class="psd">PSD</span><span class="two">2</span><span class="css">CSS</span></h1></a>
   <div class="menu"><i class="fas fa-bars"></i></div>
   <ul>
-   <li><a href="portfolio">Portfolio</a></li>
-   <li><a href="prices">Prices</a></li>
-   <li><a href="contactus">Contact us</a></li>
+   <li><a href="#portfolio">Portfolio</a></li>
+   <li><a href="#prices">Prices</a></li>
+   <li><a href="#contactus">Contact us</a></li>
   </ul>
  </nav>
  <main class="grid">
-  <h2>Your design into a website with just one click!</h2>
-  <p>Bring your PSD files and we'll make it an awesome, fast and responsive website in a few days, for a very accessible price.</p>
-  <a href="portfolio" class="button">Check out our portfolio</a>
+  <div class="maintext">
+   <h2>Your design into a website with just one click!</h2>
+   <p>Bring your PSD files and we'll make it an awesome, fast and responsive website in a few days, for a very accessible price.</p>
+   <a href="#contactus" class="button">Contact us!</a>
+  </div>
   <div class="logo">
-   <img class="circle" src="assets/circle.png" alt="Logo background">
-   <img class="ps" src="assets/ps.png" alt="PS">
-   <img class="css" src="assets/css.png" alt="CSS">
+   <img src="assets/logo.png" alt="Logo">
   </div>
  </main>
  <section id="portfolio">
   <h2>Our Portfolio</h2>
   <ul class="grid">
    <li>
-    <img src="assets/google.jpg" alt="Google Website">
-    <a href="#">Check it out live</a>
+    <div class="wrapper">
+      <a href="#">Google</a>
+      <img src="assets/google.jpg" alt="Google Website">
+    </div>
    </li>
    <li>
-    <img src="assets/facebook.jpg" alt="Facebook Website">
-    <a href="#">Check it out live</a>
+    <div class="wrapper">
+      <a href="#">Facebook</a>
+      <img src="assets/facebook.jpg" alt="Facebook Website">
+    </div>
    </li>
    <li>
-    <img src="assets/orkut.jpg" alt="Orkut Website">
-    <a href="#">Check it out live</a>
+    <div class="wrapper">
+      <a href="#">Orkut</a>
+      <img src="assets/orkut.jpg" alt="Orkut Website">
+    </div>
    </li>
   </ul>
  </section>
- <section id="prices" class="grid">
+ <section id="prices">
   <h2>Prices</h2>
   <ul class="grid">
    <li>
-    <h3>Single website</h3>
-    <h3>R$200,00</h3>
-    <button class="button">Let's do it!</button>
+    <div class="wrapper">
+      <h3>Single website</h3>
+      <h3>$ 200,00</h3>
+      <a href="#" class="button">Let's do it!</a>
+    </div>
    </li>
    <li>
-    <h3>Two websites or more</h3>
-    <h3>R$180,00/each</h3>
-    <button class="button">Let's do it!</button>
+    <div class="wrapper">
+      <h3>Two websites or more</h3>
+      <h3>$ 180,00/each</h3>
+      <a href="#" class="button">Let's do it!</a>
+    </div>
    </li>
    <li>
-    <h3>Five websites or more</h3>
-    <h3>R$160,00/each</h3>
-    <button class="button">Let's do it!</button>
+    <div class="wrapper">
+      <h3>Five websites or more</h3>
+      <h3>$ 160,00/each</h3>
+      <a href="#" class="button">Let's do it!</a>
+    </div>
    </li>
    <li>
-    <h3>Ten websites or more</h3>
-    <h3>R$150,00/each</h3>
-    <button class="button">Let's do it!</button>
+    <div class="wrapper">
+      <h3>Ten websites or more</h3>
+      <h3>$ 150,00/each</h3>
+      <a href="#" class="button">Let's do it!</a>
+    </div>
    </li>
   </ul>
  </section>
  <section id="contactus">
+  <h2>Contact us</h2>
   <div class="contact">
    <form action="">
-    <input type="text" placeholder="Your name">
-    <input type="email" placeholder="Your best email">
-    <label for="websites">How many websites do you want?</label>
+    <input type="text" placeholder="Your name" required>
+    <input type="email" placeholder="Your best email" required>
+    <label for="websites">How many websites do you need?</label>
     <select name="websites" id="websites">
-      <option value="volvo">One</option>
-      <option value="saab">Two or more</option>
-      <option value="mercedes">Five or more</option>
-      <option value="audi">Ten or more</option>
+      <option value="one">One</option>
+      <option value="twoplus">Two or more</option>
+      <option value="fiveplus">Five or more</option>
+      <option value="tenplus">Ten or more</option>
     </select>
+    <br>
     <button class="button">Send</button>
    </form>
   </div>
  </section>
  <footer>
-  <h3>Copyright 2021.</h3>
-  <h3>PSD2CSS</h3>
+  <h3>Copyright 2021<br> PSD2CSS</h3>
   <div class="social">
    <ul>
-    <li><div><a href="#"><i class="fab fa-instagram" id="ig"></i></a></div></li>
-    <li><div><a href="#"><i class="fab fa-twitter" id="tw"></i></a></div></li>
-    <li><div><a href="#"><i class="fab fa-facebook-f" id="fb"></i></a></div></li>
+    <li><a href="#"><i class="fab fa-instagram" id="ig"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter" id="tw"></i></a></li>
+    <li><a href="#"><i class="fab fa-facebook-f" id="fb"></i></a></li>
    </ul>
   </div>
  </footer>

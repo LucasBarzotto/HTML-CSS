@@ -6,15 +6,19 @@
  background: rgb(116, 116, 116);
 }
 
-nav .menu:hover {
+.navbar .menu:hover {
  color: var(--tertiary);
 }
 
-footer .social ul li a i:hover {
+.navbar ul li a:hover {
  color: var(--tertiary);
 }
 
-nav a h1 .two {
+.footer .social ul li a i:hover {
+ color: var(--tertiary);
+}
+
+.navbar a h1 .two {
  animation: colorChange 0.5s linear infinite forwards;
 }
 

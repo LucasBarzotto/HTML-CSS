@@ -1,6 +1,11 @@
 /* NAVBAR */
 
 nav {
+ width: 100%;
+ background: var(--primary);
+}
+
+.navbar {
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  width: 100%;
@@ -9,26 +14,26 @@ nav {
  justify-items: center;
 }
 
-nav ul {
+nav div ul {
  display: none;
 }
 
-nav a {
+nav div a {
  grid-column: 2 / 3;
 }
 
-nav a h1 {
+nav div a h1 {
  color: var(--secondary);
  letter-spacing: 0.3em;
  margin: 5px 10px;
  font-size: 1.5em;
 }
 
-nav a h1 .two {
+nav div a h1 .two {
  color: var(--tertiary);
 }
 
-nav .menu {
+nav div .menu {
  color: var(--secondary);
  margin: 5px 20px;
  padding-top: 5px;
@@ -36,7 +41,7 @@ nav .menu {
  margin-left: auto;
 }
 
-nav .menu i {
+nav div .menu i {
  font-size: 1.5em;
 }
 
@@ -44,17 +49,22 @@ nav .menu i {
 
 main {
  width: 100%;
+ background: white;
+}
+
+.main {
+ width: 100%;
  padding: 10px 10px 20px 10px;
  background: white;
 }
 
-main .maintext {
+.main .maintext {
  grid-column: 1 / 7;
  padding: 10px;
  text-align: center;
 }
 
-main .maintext h2 {
+.main .maintext h2 {
  color: var(--primary);
  font-size: 1.8em;
  margin: 10px auto;
@@ -62,21 +72,21 @@ main .maintext h2 {
  z-index: 1;
 }
 
-main .maintext p {
+.main .maintext p {
  color: var(--primary);
  font-size: 1em;
  position: relative;
  z-index: 1;
 }
 
-main .maintext a {
+.main .maintext a {
  font-size: 1em;
  display: inline-block;
  padding: 10px;
  margin: 10px auto;
 }
 
-main .logo {
+.main .logo {
  grid-column: 7 / 11;
  grid-row: 1;
  display: flex;
@@ -86,13 +96,18 @@ main .logo {
  z-index: 0;
 }
 
-main .logo img {
+.main .logo img {
  z-index: 0;
  width: 15em;
  margin-left: 40%;
 }
 
 /* PORTFOLIO */
+
+.pf {
+ width: 100%;
+ background: var(--tertiary);
+}
 
 #portfolio {
  width: 100%;
@@ -157,11 +172,15 @@ main .logo img {
 
 /* PRICES */
 
+.pc {
+ width: 100%;
+ background: url(assets/money.png) no-repeat;
+ background-size: cover;
+}
+
 #prices {
  width: 100%;
  text-align: center;
- background: url(assets/money.png) no-repeat;
- background-size: cover;
 }
 
 #prices h2 {
@@ -208,6 +227,11 @@ main .logo img {
  margin: 5px auto;
 }
 /* CONTACT */
+
+section .ct {
+ width: 100%;
+ color: var(--primary);
+}
 
 #contactus {
  width: 100%;
@@ -270,6 +294,11 @@ main .logo img {
 /* FOOTER */
 
 footer {
+ background: rgb(19, 19, 19);
+ width: 100%;
+}
+
+.footer {
  width: 100%;
  text-align: center;
  background: rgb(19, 19, 19);
@@ -281,7 +310,7 @@ footer {
  height: 70px;
 }
 
-footer h3 {
+.footer h3 {
  padding: 10px;
  flex-basis: 30%;
  font-size: 0.7em;
@@ -289,11 +318,11 @@ footer h3 {
  margin: 0;
 }
 
-footer .social {
+.footer .social {
  flex-basis: 30%;
 }
 
-footer .social ul {
+.footer .social ul {
  display: flex;
  align-items: center;
  justify-content: space-around;

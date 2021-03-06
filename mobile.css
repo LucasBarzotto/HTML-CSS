@@ -1,0 +1,331 @@
+/* NAVBAR */
+
+nav {
+ width: 100%;
+ background: var(--primary);
+}
+
+.navbar {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ width: 100%;
+ background: var(--primary);
+ align-items: center;
+ justify-items: center;
+}
+
+nav div ul {
+ display: none;
+}
+
+nav div a {
+ grid-column: 2 / 3;
+}
+
+nav div a h1 {
+ color: var(--secondary);
+ letter-spacing: 0.3em;
+ margin: 5px 10px;
+ font-size: 1.5em;
+}
+
+nav div a h1 .two {
+ color: var(--tertiary);
+}
+
+nav div .menu {
+ color: var(--secondary);
+ margin: 5px 20px;
+ padding-top: 5px;
+ grid-column: 3 / 4;
+ margin-left: auto;
+}
+
+nav div .menu i {
+ font-size: 1.5em;
+}
+
+/* MAIN */
+
+main {
+ width: 100%;
+ background: white;
+}
+
+.main {
+ width: 100%;
+ padding: 10px 10px 20px 10px;
+ background: white;
+}
+
+.main .maintext {
+ grid-column: 1 / 7;
+ padding: 10px;
+ text-align: center;
+}
+
+.main .maintext h2 {
+ color: var(--primary);
+ font-size: 1.8em;
+ margin: 10px auto;
+ position: relative;
+ z-index: 1;
+}
+
+.main .maintext p {
+ color: var(--primary);
+ font-size: 1em;
+ position: relative;
+ z-index: 1;
+}
+
+.main .maintext a {
+ font-size: 1em;
+ display: inline-block;
+ padding: 10px;
+ margin: 10px auto;
+}
+
+.main .logo {
+ grid-column: 7 / 11;
+ grid-row: 1;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ z-index: 0;
+}
+
+.main .logo img {
+ z-index: 0;
+ width: 15em;
+ margin-left: 40%;
+}
+
+/* PORTFOLIO */
+
+.pf {
+ width: 100%;
+ background: var(--tertiary);
+}
+
+#portfolio {
+ width: 100%;
+ text-align: center;
+ background: var(--tertiary);
+}
+
+#portfolio h2 {
+ display: inline-block;
+ padding: 5px 0;
+ color: var(--secondary);
+ margin: 10px 0 0 0;
+ font-size: 1.7em;
+ text-transform: uppercase;
+}
+
+#portfolio ul {
+ padding: 0;
+}
+
+#portfolio li {
+ grid-column: 1 / 11;
+ padding: 0 20px 20px 20px;
+}
+
+#portfolio ul li:nth-child(1){
+ grid-row: 1;
+}
+
+#portfolio ul li:nth-child(2){
+ grid-row: 2;
+}
+
+#portfolio ul li:nth-child(3){
+ grid-row: 3;
+}
+
+#portfolio li .wrapper {
+ background: rgb(247, 247, 247);
+ padding: 0 0 10px 0;
+ border-radius: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+#portfolio li .wrapper a {
+ font-size: 1.3em;
+ letter-spacing: 0.05em;
+ margin: 5px 25px;
+ justify-self: flex-start;
+ color: var(--primary);
+}
+
+#portfolio li img {
+ width: 85%;
+ margin: 10px auto;
+ box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.8);
+ justify-self: center;
+}
+
+/* PRICES */
+
+.pc {
+ width: 100%;
+ background: url(assets/money.png) no-repeat;
+ background-size: cover;
+}
+
+#prices {
+ width: 100%;
+ text-align: center;
+}
+
+#prices h2 {
+ display: inline-block;
+ padding: 0;
+ color: var(--primary);
+ margin: 0;
+ font-size: 1.7em;
+ text-transform: uppercase;
+}
+
+#prices ul {
+ padding: 0;
+ row-gap: 30px;
+ justify-content: center;
+}
+
+#prices ul li {
+ color: var(--secondary);
+ grid-column: 2 / 10;
+ text-align: center;
+}
+
+#prices ul li .wrapper {
+ background: var(--primary);
+ opacity: 0.95;
+ padding: 10px 0;
+ border-radius: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+}
+
+#prices ul li h3 {
+ padding: 0;
+ width: 80%;
+ margin: 5px auto;
+ font-size: 1.5em;
+}
+
+#prices ul li a {
+ display: inline-block;
+ padding: 10px 20px;
+ margin: 5px auto;
+}
+/* CONTACT */
+
+section .ct {
+ width: 100%;
+ color: var(--primary);
+}
+
+#contactus {
+ width: 100%;
+ text-align: center;
+ color: var(--primary);
+}
+
+#contactus h2 {
+ color: var(--primary);
+ font-size: 1.7em;
+ text-transform: uppercase;
+}
+
+#contactus .contact {
+ background: var(--tertiary);
+ box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.8);
+ padding: 10px 0;
+ margin: 0 20px;
+ border-radius: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}
+
+#contactus .contact form {
+ width: 100%;
+}
+
+#contactus .contact form input {
+ border-radius: 10px;
+ padding: 5px;
+ margin: 10px auto;
+ width: 80%;
+}
+
+#contactus .contact form label {
+ color: var(--primary);
+ font-size: 1.3em;
+ display: block;
+ margin: 5px;
+}
+
+#contactus .contact form select {
+ border-radius: 10px;
+ padding: 5px;
+ margin: 10px auto;
+ width: 80%;
+}
+
+#contactus .contact form button {
+ padding: 10px 20px;
+ background: var(--primary);
+}
+
+#contactus .contact form *:focus {
+ outline: none;
+}
+
+/* FOOTER */
+
+footer {
+ background: rgb(19, 19, 19);
+ width: 100%;
+}
+
+.footer {
+ width: 100%;
+ text-align: center;
+ background: rgb(19, 19, 19);
+ display: flex;
+ color: var(--secondary);
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 40px;
+ height: 70px;
+}
+
+.footer h3 {
+ padding: 10px;
+ flex-basis: 30%;
+ font-size: 0.7em;
+ letter-spacing: 0.1em;
+ margin: 0;
+}
+
+.footer .social {
+ flex-basis: 30%;
+}
+
+.footer .social ul {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ padding: 10px;
+ margin: 0;
+}

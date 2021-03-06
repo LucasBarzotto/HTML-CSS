@@ -1,0 +1,71 @@
+.button:hover {
+ background: rgb(255, 176, 176);
+}
+
+#contactus .contact form button:hover {
+ background: rgb(116, 116, 116);
+}
+
+.navbar .menu:hover {
+ color: var(--tertiary);
+}
+
+.navbar ul li a:hover {
+ color: var(--tertiary);
+}
+
+.footer .social ul li a i:hover {
+ color: var(--tertiary);
+}
+
+.navbar a h1 .two {
+ animation: colorChange 0.5s linear infinite forwards;
+}
+
+@keyframes translator {
+ 0% {
+  transform: translateX(0);
+ }
+
+ 25% {
+  transform: translateX(-10px);
+ }
+
+ 50% {
+  transform: translateX(-15px);
+ }
+
+ 75% {
+  transform: translateX(0);
+ }
+}
+
+@keyframes colorChange {
+ 0% {
+  color: rgb(255, 0, 0);
+ }
+ 10% {
+  color: rgb(255, 196, 0);
+ }
+ 20% {
+  color: rgb(102, 255, 0);
+ }
+ 30% {
+  color: rgb(0, 255, 157);
+ }
+ 41% {
+  color: rgb(0, 162, 255);
+ }
+ 52% {
+  color: rgb(89, 0, 255);
+ }
+ 68% {
+  color: rgb(225, 0, 255);
+ }
+ 82% {
+  color: rgb(255, 0, 106);
+ }
+ 100% {
+  color: rgb(255, 0, 85);
+ }
+}

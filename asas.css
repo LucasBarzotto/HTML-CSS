@@ -1,0 +1,38 @@
+.info {
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ text-align: center;
+}
+
+.info__title {
+ font-size: 1.6em;
+ color: rgb(71, 71, 71);
+ margin: 10px 0;
+ flex-basis: 100%;
+}
+
+.info__download {
+ margin: 10px 0;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.download__icon {
+ font-size: 2em;
+ color: var(--primary);
+ flex-basis: 100%;
+}
+
+.download__title {
+ flex-basis: 100%;
+}
+
+.info__tech {
+ margin: 10px 0;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}

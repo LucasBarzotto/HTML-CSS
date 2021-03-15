@@ -74,9 +74,9 @@
   </div>
  </nav>
  <main class="sale">
-  <div class="wine">
+  <div class="wine sale__wine">
    <img src="img/ricossa.png" alt="Ricossa Bottle" class="wine__img">
-   <div class="content">
+   <div class="content wine__content">
     <h3 class="content__warning">ÚLTIMAS UNIDADES</h4>
     <time class="content__date">12/MAR</time>
     <h2 class="content__title">RICOSSA</h1>
@@ -84,7 +84,8 @@
     <div class="off content__off">
      <h3 class="off__old">de R$ 105,90</h3>
      <div class="off__circle">
-      <h3 class="off_off">25% OFF</h3>
+      <h3 class="off__percentage">25%</h3>
+      <h3 class="off__off">OFF</h3>
      </div>
     </div>
     <h2 class="content__price">R$<span class="content__bigger">79</span>,90</h2>
@@ -101,16 +102,36 @@
   </div>
  </main>
  <article class="sale-article">
-
+  <div class="artcont sale-article__cont">
+   <div class="artinfo artcont__info">
+    <div class="artinfo__elem">
+     <i class="fas fa-wine-glass-alt artinfo__icon artinfo__icon--wine"></i>
+     <h3 class="artinfo__text">TIPO TINTO</h3>
+    </div>
+    <div class="artinfo__elem">
+     <i class="far fa-flag artinfo__icon artinfo__icon--country"></i>
+     <h3 class="artinfo__text">PAÍS CHILE</h3>
+    </div>
+    <div class="artinfo__elem">
+     <i class="fas fa-leaf artinfo__icon artinfo__icon--leaf"></i>
+     <h3 class="artinfo__text">SAFRA 2011</h3>
+    </div>
+    <div class="artinfo__elem">
+     <i class="fas fa-thermometer-three-quarters artinfo__icon artinfo__icon--termo"></i>
+     <h3 class="artinfo__text">TEOR 15.2%</h3>
+    </div>
+   </div>
+   <p class="artcont__text"><span class="artcont__text--bold">Lorem ipsum </span>dolor sit, amet consectetur adipisicing elit. Ut soluta delectus libero ratione eum iste esse eaque placeat praesentium natus porro eius quasi sint est officiis <span class="artcont__text--bold">pariatur, hic quos dolore illum!</span> Voluptas dignissimos doloribus mollitia aspernatur commodi facilis distinctio recusandae, velit voluptatum laborum dolore voluptates corporis, hic deserunt minus quod?</p>
+   <br>
+   <p class="artcont__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eum asperiores quas. Nulla perferendis deleniti eveniet delectus voluptates, eius recusandae itaque repellat <span class="artcont__text--bold">corporis</span> possimus porro. Est ipsum sit neque ad quis vitae, animi alias, odio dolorem voluptate quasi sunt ut? Officia, inventore architecto quod sed perferendis explicabo numquam ullam laboriosam sunt quae error beatae veniam nam eaque commodi aliquid facilis aliquam vitae similique iusto eveniet <span class="artcont__text--bold">praesentium earum veritatis assumenda</span>. Obcaecati ducimus sequi, quo ipsam eius temporibus exercitationem voluptates libero nostrum, nihil dolores, atque omnis possimus officia! Voluptas amet enim quod debitis inventore, error ratione minus sint? Quo fuga aliquid autem.</p>
+  </div>
  </article>
- <section class="description">
-
- </section>
- <section class="options">
-
- </section>
  <section class="mailing">
-
+  <div class="mail mailing__cont">
+   <h2 class="mail__title">CADASTRE SEU E-MAIL E RECEBA DESCONTOS E PROMOÇÕES</h2>
+   <input type="email" placeholder="Digite seu e-mail" class="mail__input" required>
+   <button class="mail__button">CADASTRAR</button>
+  </div>
  </section>
  <footer class="footer">
   <div class="footcont footer__container">
@@ -128,17 +149,17 @@
     </ul>
    </div>
    <ul class="footcont__links">
-    <li class="footcont__link">Quem Somos</li>
-    <li class="footcont__link">Nossa Missão</li>
-    <li class="footcont__link">Como Comprar</li>
-    <li class="footcont__link">Oferta da Semana</li>
-    <li class="footcont__link">Cadastre-se</li>
+    <li class="footcont__link"><a href="#" class="footcont__a">Quem Somos</a></li>
+    <li class="footcont__link"><a href="#" class="footcont__a">Nossa Missão</a></li>
+    <li class="footcont__link"><a href="#" class="footcont__a">Como Comprar</a></li>
+    <li class="footcont__link"><a href="#" class="footcont__a">Oferta da Semana</a></li>
+    <li class="footcont__link"><a href="#" class="footcont__a">Cadastre-se</a></li>
    </ul>
    <ul class="footcont__infos">
-    <li class="footcont__info">Política de Devolução</li>
-    <li class="footcont__info">Política de Privacidade</li>
-    <li class="footcont__info">Canal do Consumidor</li>
-    <li class="footcont__info">Contato</li>
+    <li class="footcont__info"><a href="#" class="footcont__a--info">Política de Devolução</a></li>
+    <li class="footcont__info"><a href="#" class="footcont__a--info">Política de Privacidade</a></li>
+    <li class="footcont__info"><a href="#" class="footcont__a--info">Canal do Consumidor</a></li>
+    <li class="footcont__info"><a href="#" class="footcont__a--info">Contato</a></li>
    </ul>
   </div>
  </footer>

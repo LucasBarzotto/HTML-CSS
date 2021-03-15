@@ -348,8 +348,11 @@ h1, h2, h3, h4, p, a, ul, li {
  width: 100%;
  margin: 5px 0;
  font-weight: 600;
- color: var(--primary);
  font-size: 1.1em;
+}
+
+.footcont__a {
+ color: var(--primary);
 }
 
 .footcont__infos {
@@ -363,6 +366,9 @@ h1, h2, h3, h4, p, a, ul, li {
  width: 100%;
  margin: 5px 0;
  font-weight: 400;
+}
+
+.footcont__a--info {
  color: rgb(180, 180, 180);
 }
 

@@ -1,0 +1,147 @@
+/* CART */
+
+.sumcont__cart {
+ width: 100%;
+ background: var(--secondary);
+ margin: 20px 0;
+ border-radius: 6px;
+ box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.6);
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ padding: 10px;
+}
+
+.cart__head {
+ display: flex;
+ justify-content: flex-start;
+ flex-basis: 100%;
+ align-items: center;
+ border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.cart__icon {
+ color: var(--primary);
+ font-size: 1.6em;
+ margin: 10px 10px;
+}
+
+.cart__title {
+ font-size: 1.1em;
+ margin: 10px 20px;
+}
+
+.cart__table {
+ display: grid;
+ flex-basis: 100%;
+}
+
+.cart__colname {
+ display: none;
+}
+
+.items__img {
+ width: 28px;
+ margin: 10px 0;
+}
+
+.items__wine {
+ font-size: 1.1em;
+ font-weight: 600;
+ flex-basis: 100%;
+}
+
+.items__buycont {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ align-items: center;
+ margin: 20px auto;
+ max-width: 270px;
+}
+
+.items__qtd {
+ justify-self: flex-start;
+}
+
+.qtd {
+ width: 60px;
+ border: 2px solid var(--tertiary);
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ justify-content: center;
+ align-items: center;
+}
+
+.qtd__num {
+ font-size: 1.2em;
+}
+
+.qtd__inc {
+ font-size: 1em;
+ text-align: center;
+ background: var(--tertiary);
+ color: var(--secondary);
+ display: grid;
+ justify-content: center;
+ align-items: center;
+}
+
+.qtd__up {
+ grid-row: 1;
+ grid-column: 2;
+ cursor: pointer;
+}
+
+.qtd__down {
+ grid-row: 2;
+ grid-column: 2;
+ cursor: pointer;
+}
+
+.items__price {
+ width: 60px;
+ font-size: 1.4em;
+ color: var(--tertiary);
+ font-weight: 600;
+}
+
+.items__trash {
+ font-size: 1.4em;
+ cursor: pointer;
+}
+
+.cart__total {
+ margin: 10px auto;
+}
+
+.total {
+ height: 60px;
+ width: 90%;
+ max-width: 400px;
+ background: rgb(189, 212, 255);
+ border-radius: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.total__title {
+ font-weight: 600;
+ font-size: 1em;
+ margin: 5px;
+}
+
+.total__qtd {
+ font-weight: 600;
+ font-size: 1em;
+ margin: 5px;
+}
+
+.total__price {
+ font-weight: 700;
+ color: var(--tertiary);
+ font-size: 1em;
+ margin: 5px;
+}

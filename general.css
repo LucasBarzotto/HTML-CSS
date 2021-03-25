@@ -58,6 +58,10 @@ h1, h2, h3, h4, p, a, ul, li {
  margin: 0;
 }
 
+.svg-inline--fa.fa-w-14, .svg-inline--fa.fa-w-8, .svg-inline--fa.fa-w-12, .svg-inline--fa.fa-w-16, .svg-inline--fa.fa-w-18 {
+ width: auto;
+}
+
 /* NAVBAR MOBILE */
 
 .nav {

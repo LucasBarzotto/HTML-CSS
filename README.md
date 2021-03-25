@@ -1,1 +1,1 @@
-HTML and CSS projects to practice.
+Three static pages of an wine e-commerce, mobile-first responsive.
